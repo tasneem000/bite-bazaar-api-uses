@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Email Template</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div style="font-family: 'Roboto', sans-serif; background: rgb(255, 251, 234); border-radius: 10px; padding: 20px 0px 0px 0px; margin: 10px;">
+          <div style="border-bottom: 1px solid rgb(200, 200, 200); padding-bottom: 20px; padding-top: 10px;">
+              <img src="https://cdn-icons-png.freepik.com/512/3779/3779800.png" alt="Bite Bazaar Logo" width="80px" style="display: block; margin: auto;">
+          </div>
+          <div style="padding: 0px 15px;">
+              <h3 style="font-size: 24px;">Hello, ${name}</h3>
+              <h3 style="font-size: 24px;">Verify Your Email Address</h3>
+              <p style="font-size: 18px;">You need to verify your email address to complete the signup process. Enter the following code to verify your email address:</p>
+              <h2 style="font-size: 35px; text-align: center; color: red;"><span style="background: rgb(255, 236, 202); padding: 10px; border-radius: 10px;">${otp}</span></h2>
+          </div>
+          <div style="height: 1px; background: rgb(200, 200, 200);"></div>
+          <div style="padding: 0px 15px;">
+              <p style="font-size: 18px;">
+                The verification code will be valid for 10 minutes. Please keep this code confidential and do not share it with anyone.<br><br>
+                This is an automated message, please do not reply.<br><br>
+                <span style="color: rgb(171, 0, 0);">If you didn't request this code, you can ignore this message.</span>
+              </p>
+              <br>
+              <p style="font-size: 18px; color: rgb(93, 93, 255);">For assistance, contact us at: <a href="https://bitebazaar.com.bd" target="_blank" style="color: rgb(215, 215, 0);"><span>https://bitebazaar.com.bd</span></a></p>
+          </div>
+          <div style="border-top: 2px solid; padding: 5px 0; background: rgba(255, 255, 0, 0.641); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+              <p style="text-align: center; color: rgb(81, 81, 81); font-size: 20px;">Bite Bazaar</p>
+          </div>
+      </div>
+  </body>
+  </html>

@@ -49,7 +49,7 @@ document.getElementById('submit').addEventListener('click', async function () {
           })
             .then(response => response.json())
             .then(data => {
-              if (data.message === 'User created successfully') {
+              if (data.status == 'success') {
   
   
                 console.log('Sign up successful:', data.user);
